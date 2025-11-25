@@ -1,5 +1,44 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* 1. Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* 2. Center image */
+#featured-property img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* 3. Style nav links */
+nav {
+  text-align: center;
+}
+
+nav a {
+  padding: 0 10px;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+}
+
+/* 4. Style image caption */
+#featured-property figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* 5. Center and size paragraphs */
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* 6. Make details horizontal */
+#details div {
+  float: left;
+  width: 25%;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
 }
